@@ -10,7 +10,10 @@ main {
 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> fe343139e2ef3941dcd2b446d74a8c6eb793986b
 .logo-icon {
     height: 50px;
     width: 50px;
@@ -30,14 +33,20 @@ nav>a{
 }
 
 .banner-container {
+<<<<<<< HEAD
 
     background-image: url(../assets/508133488.jpg);
+=======
+>>>>>>> fe343139e2ef3941dcd2b446d74a8c6eb793986b
     height: 350px;
     width: 100%;
     border: 1px solid;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> fe343139e2ef3941dcd2b446d74a8c6eb793986b
 .headquarter-content{
     display:flex;
     justify-content: space-evenly;
@@ -54,8 +63,13 @@ nav>a{
 
 .headquarter-icon{
 
+<<<<<<< HEAD
     height: 150px;
     width: 150px;
+=======
+    height: 50px;
+    width: 50px;
+>>>>>>> fe343139e2ef3941dcd2b446d74a8c6eb793986b
 
 
     background-size: cover;
@@ -85,6 +99,7 @@ nav>a{
 .divider{
 
     flex: 2;
+<<<<<<< HEAD
 }
 
 .form-group {  
@@ -112,4 +127,6 @@ nav>a{
 
 text-align: right;
 
+=======
+>>>>>>> fe343139e2ef3941dcd2b446d74a8c6eb793986b
 }

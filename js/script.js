@@ -26,5 +26,4 @@ function setSenderUI (name, gender, bookdate, notes) {
   document.getElementById("sender-notes").innerHTML = notes;
   
 
-
 }
