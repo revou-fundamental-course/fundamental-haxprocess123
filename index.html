@@ -1,11 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Akbar</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <!-- HEADER NAV-->
+    <header class="nav-container">
+        <div class="logo-icon"></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#our-profile">Our Branch</a>
+            <a href="https://www.bulgarihotels.com/en_US/bali">About Us</a>
+            <a href="#message-us">Message Us</a>
+        </nav>
+
+    </header>
     
+    <hr />
+
+    <main>
+
+         <!-- HOME CONTENT -->
+         <section id="home">
+            <header>
+                <h1>Hello Guest, Welcome To Our Website</h1>
+            </header>
+
+            <article>
+                <p>Book Yourself A Room By Filling This Form Below</p>
+
+                <div class="banner-container"></div>
+
+            </article>
+
+         </section>
+
+         <hr />
+         <hr />
+
+        <!-- OUR PROFILE CONTENT -->
+        <section id="our-profile">
+            <header>
+                <h1>Our Branch</h1>
+            </header>
+
+            <article class="headquarter-content">
+                <div class="headquarter-item">
+                    <div class="headquarter-icon headquarter-1"></div>
+                    <p>Jakarta</p>
+                </div>    
+
+                <div class="headquarter-item">
+                     <div class="headquarter-icon headquarter-2"></div>
+                     <p>Bandung</p>
+
+                </div>
+
+                <div class="headquarter-item">
+                     <div class="headquarter-icon headquarter-3"></div>
+                    <p>Jogja</p>
+                </div>
+
+                <div class="divider"></div>
+            </article>
+
+        </section>
+
+        <hr />
+        <hr />
+
+         <!-- ABOUT US CONTENT -->
+
+         <!-- MESSAGE US CONTENT -->
+
+        <section id="message-us">
+
+            <header>
+                <h1>Message Us</h1>
+            </header>
+
+            <article style="display: flex; justify-content: space-between;">
+
+            <form name="message-form" onsubmit="return validateForm()">
+
+                <div class="form-group">  
+
+                    <label for="full-name">Guest Name:</label>  
+                    <input placeholder="Name" type="text" name="full-name"> 
+
+                  </div>  
+
+                  <div class="form-group">  
+
+                    <label for="gender">Gender:</label>  
+                    <input type="radio" id="male" name="gender" value="male">  
+                    <label for="male">Male</label>  
+                    <input type="radio" id="female" name="gender" value="female">  
+                    <label for="female">Female</label>  
+                    
+                  </div>  
+
+                  <div class="form-group">  
+                    <label for="book-date">Book Date:</label>  
+                    <input type="date" name="book-date">  
+                  </div>  
+
+                  <div class="form-group">  
+                    <label for="notes">Notes:</label>  
+                    <textarea placeholder="notes" name="notes"></textarea>  
+
+                  </div> 
+
+                  <input type="submit" value="Submit"
+                  style="width: 350px; height: 30px; border: 2px solid #ccc; 
+                  border-radius: 5px; background-color: #f0f0f0; cursor: pointer;"> 
+
+
+            </form> 
+                
+            
+            <style>  
+                .container {  
+                   border: 1px solid;  
+                   height: 300px;  
+                   width: 600px;  
+                   padding: 20px;  
+                   display: flex;  
+                   flex-direction: column;  
+                   align-items: flex-start;  
+                 }  
+                .container p {  
+                   margin-bottom: 10px;  
+                 }  
+                .container span {  
+                   font-weight: bold;  
+                 }  
+                .label {  
+                   width: 100px;  
+                   display: inline-block;  
+                   text-align: left;  
+                   margin-right: 10px;  
+                 }  
+               </style>  
+                 
+               <div class="container">  
+
+                 <p><span class="label">Guest Name:</span> <span id="sender-full-name"></span></p>  
+                 <p><span class="label">Gender:</span> <span id="sender-gender"></span></p>  
+                 <p><span class="label">Book Date:</span> <span id="sender-book-date"></span></p>  
+                 <p><span class="label">Notes:</span> <span id="sender-notes"></span></p>  
+                 
+               </div>  
+
+
+            </article>
+
+        </section> 
+
+        <hr />
+        <hr />
+
+         <!-- FOOTER CONTENT -->
+
+         <footer class="footer">
+
+            <h6>Created By Auliya Akbar</h6>
+
+         </footer>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
